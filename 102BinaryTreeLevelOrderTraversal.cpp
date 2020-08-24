@@ -15,6 +15,11 @@
 //   [15,7]
 // ]
 
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+using namespace std;
+
 struct TreeNode {
     int val;
     TreeNode* left;
@@ -25,9 +30,6 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
-#include <stdio.h>
-#include <vector>
-using namespace std;
 class Solution {
    public:
     vector<vector<int> > levelOrder(TreeNode* root) {
@@ -35,3 +37,8 @@ class Solution {
         return result;
     }
 };
+
+int main() {
+    int i = 1;
+    printf("1");
+}
