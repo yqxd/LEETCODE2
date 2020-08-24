@@ -34,11 +34,9 @@ class Solution {
    public:
     vector<vector<int> > levelOrder(TreeNode* root) {
         vector<vector<int> > result;
-        return result;
-    }
+        }
 };
 
 int main() {
-    int i = 1;
-    printf("1");
+    Solution A;
 }

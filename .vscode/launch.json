@@ -21,6 +21,13 @@
                 }
             ],
             "preLaunchTask": "build hello world" //和tasks中label保持一致
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
