@@ -10,6 +10,7 @@
  * right(right) {}
  * };
  */
+#include <stdio.h>
 class Solution {
    public:
     int maxDepth(TreeNode* root) { return nowDepth(root, 0); }
