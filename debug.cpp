@@ -13,6 +13,11 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
+struct TreeNode* s() {
+    struct TreeNode A = TreeNode(1), *A1 = &A;
+    return A1;
+}
+
 int main() {
     struct TreeNode a1, a2, a3, a4, a5, a6, *b1 = &a1, *b2 = &a2, *b3 = &a3,
                                             *b4 = &a4, *b5 = &a5, *b6 = &a6;
@@ -27,9 +32,9 @@ int main() {
     b2->left = b4;
     b2->right = b5;
     b5->left = b6;
-    vector<struct TreeNode*> T;
-    T.push_back(b1);
-    struct TreeNode* N = T[T.size() - 1];
-    cout << N->val;
-    cout << T.size();
+    struct TreeNode* N = s();
+    cout << N->val << endl;
+    N->left = s();
+    cout << N->left->val;
+    system("pause");
 }
