@@ -37,5 +37,24 @@ struct TreeNode {
 
 class Solution {
    public:
-    TreeNode* sortedArrayToBST(vector<int>& nums) {}
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        if (nums.size() == 0) {
+            return nullptr;
+        }
+        int n = nums.size() / 2;
+        TreeNode A1 = TreeNode(nums[n]), *A = &A1;
+        vector<int> num1, num2;
+        num1.assign(nums.begin(), nums.begin() + n);
+        num2.assign(nums.begin() + n + 1, nums.end());
+        A1.left = sortedArrayToBST(num1);
+        A1.right = sortedArrayToBST(num2);
+        return A;
+    }
 };
+
+int main() {
+    vector<int> A = {1, 2, 3, 4, 5, 6};
+    Solution C;
+    TreeNode* B = C.sortedArrayToBST(A);
+    system("Pause");
+}
