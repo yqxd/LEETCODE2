@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <algorithm>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -36,5 +37,10 @@ int main() {
     cout << N->val << endl;
     N->left = s();
     cout << N->left->val;
+    system("pause");
+    vector<int> l = {1, 2, 3, 4, 5};
+    std::reverse(l.begin(), l.end());
+    for (auto i : l)
+        cout << i << endl;
     system("pause");
 }
