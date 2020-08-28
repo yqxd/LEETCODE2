@@ -81,10 +81,4 @@ int main() {
     b2->right = b5;
     b5->left = b6;
     Solution A;
-    vector<vector<int>> B = A.levelOrder(b1);
-    for (auto i : B) {
-        for (auto j : i) {
-            cout << j << endl;
-        }
-    }
 }
