@@ -38,10 +38,13 @@ int main() {
     cout << N->val << endl;
     N->left = s();
     cout << N->left->val;
-    system("pause");
-    vector<int> l = {1, 2, 3, 4, 5};
+    vector<vector<int>> l = {{1, 2}};
+    l[0].insert(l[0].begin(), 2);
     std::reverse(l.begin(), l.end());
-    for (auto i : l)
-        cout << i << endl;
+    for (auto i : l) {
+        for (auto j : i) {
+            cout << j << endl;
+        }
+    }
     system("pause");
 }

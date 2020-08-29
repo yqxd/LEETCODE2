@@ -35,7 +35,7 @@ int main() {
     A = {1, 2, 3, 4, 5, 6, 7, 8};
     printf("\n");
     B = {1};
-    B.assign(A.begin(), A.begin() + 1);  // 外部部分赋值
+    B.assign(A.begin(), +1, A.begin() + 3);  // 外部部分赋值
     for (auto i : B) {
         cout << i;
     }
