@@ -15,10 +15,11 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
-struct TreeNode* s() {
-    struct TreeNode A = TreeNode(1), *A1 = &A;
-    return A1;
-}
+struct ListNode {
+    int val;
+    ListNode* next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
 
 int main() {
     struct TreeNode a1, a2, a3, a4, a5, a6, *b1 = &a1, *b2 = &a2, *b3 = &a3,
