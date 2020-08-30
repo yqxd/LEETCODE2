@@ -35,12 +35,17 @@ int main() {
     A = {1, 2, 3, 4, 5, 6, 7, 8};
     printf("\n");
     B = {1};
-    B.assign(A.begin(), +1, A.begin() + 3);  // 外部部分赋值
+    B.assign(A.begin() + 1, A.begin() + 3);  // 外部部分赋值
     for (auto i : B) {
         cout << i;
     }
     printf("\n");
     A = {1, 2, 3, 4, 5, 6, 7};  // 内部重新赋值
+    for (auto i : A)
+        cout << i;
+    printf("\n");
+    vector<int>* K = &A;
+    K->at(1) = 1;
     for (auto i : A)
         cout << i;
     printf("\n");
