@@ -35,10 +35,6 @@ int main() {
     b2->left = b4;
     b2->right = b5;
     b5->left = b6;
-    struct TreeNode* N = s();
-    cout << N->val << endl;
-    N->left = s();
-    cout << N->left->val;
     vector<vector<int>> l = {{1, 2}};
     l[0].insert(l[0].begin(), 2);
     std::reverse(l.begin(), l.end());
@@ -47,5 +43,6 @@ int main() {
             cout << j << endl;
         }
     }
+    cout << *max_element(l[0].begin(), l[0].end());
     system("pause");
 }
