@@ -15,12 +15,6 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
 int main() {
     struct TreeNode a1, a2, a3, a4, a5, a6, *b1 = &a1, *b2 = &a2, *b3 = &a3,
                                             *b4 = &a4, *b5 = &a5, *b6 = &a6;

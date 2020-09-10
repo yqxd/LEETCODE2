@@ -39,7 +39,7 @@ class Solution {
         if (inorder.size() == 0) {
             return nullptr;
         } else {
-            struct TreeNode root1 = TreeNode(preorder[0]), *root = &root1;
+            struct TreeNode* root = new TreeNode(preorder[0]);
             int loc = find(preorder[0], inorder, 0, preorder.size() - 1);
             root->left = build(preorder, inorder, 0, loc - 1);
             root->right =
@@ -50,7 +50,7 @@ class Solution {
     TreeNode* build(vector<int> preorder, vector<int> inorder, int a, int b) {
         if (a == b + 1)
             return nullptr;
-        struct TreeNode root1 = TreeNode(preorder[*num]), *root = &root1;
+        struct TreeNode* root = new TreeNode(preorder[*num]);
         int loc = find(preorder[*num], inorder, a, b);
         (*num)++;
         root->left = build(preorder, inorder, a, loc - 1);
