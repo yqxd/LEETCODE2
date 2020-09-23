@@ -46,6 +46,7 @@ int main() {
             cout << j << endl;
         }
     }
-    cout << *max_element(l[0].begin(), l[0].end());
-    system("pause");
+    int s[4];
+    s[0] = 10000;
+    printf("%.2x", &s[0]);
 }
