@@ -39,35 +39,27 @@ struct TreeNode {
 };
 
 class Solution {
-   public:
+public:
+    vector<int>path;
+    vector<vector<int>>result;
+    
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
-        return path(root, sum, 0);
-    }
-    vector<vector<int>> path(TreeNode* root, int sum, int now) {
-        vector<vector<int>> result1 = {}, result2 = {}, result = {};
-        if (root->right == nullptr || root->left == nullptr) {
-            if (sum == now + root->val) {
-                result1 = {{root->val}};
-            }
-        }
-        if (root->left != nullptr) {
-            result1 = path(root->left, sum, now + root->val);
-        }
-        if (root->right != nullptr) {
-            result2 = path(root->right, sum, now + root->val);
-        }
-        for (auto i : result1)
-            result.push_back(i);
-        for (auto i : result2)
-            result.push_back(i);
-        for (auto i : result)
-            i.insert(i.begin(), root->val);
-        for (auto i : result) {
-            for (auto j : i) {
-                cout << j << endl;
-            }
-        }
+        helper(root,sum);
         return result;
+    }
+    
+    void helper(TreeNode* root,int sum)
+    {
+        if (root==NULL)
+            return;
+        sum-=root->val;
+        path.push_back(root->val);
+        if(root->left==NULL and root->right==NULL and (sum==0))
+            result.push_back(path);
+        helper (root->left,sum);
+        helper (root->right,sum);
+        path.pop_back();
+        
     }
 };
 

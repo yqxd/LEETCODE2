@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <algorithm>
 #include <iostream>
+#include <numeric>
 #include <vector>
 using namespace std;
 
@@ -32,73 +33,15 @@ using namespace std;
 class Solution {
    public:
     int candy(vector<int>& ratings) {
-        if (ratings.size() <= 2) {
-            if (ratings.size() == 1) {
-                return 1;
-            } else if (ratings.size() == 0) {
-                return 0;
-            } else if (ratings[0] != ratings[1]) {
-                return 3;
-            } else {
-                return 2;
+        vector<int> A = {};
+        int now = 0, del = 0;
+        while (1) {
+            if (now == ratings.size()) {
+                break;
             }
+            if(ratings)
         }
-        ratings.insert(ratings.begin(), ratings[0]);
-        ratings.insert(ratings.end(), ratings[ratings.size() - 1]);
-        vector<int> A = {0};
-        for (int i = 1; i < ratings.size() - 1; i++) {
-            if (ratings[i] <= ratings[i - 1] && ratings[i] <= ratings[i + 1]) {
-                A.push_back(i);
-            }
-        }
-        for (auto i : A) {
-            ratings[i] = 1;
-        }
-        for (auto i : ratings)
-            cout << i;
-        for (auto i : A)
-            cout << i;
-        printf("\n");
-        A.push_back(ratings.size() - 1);
-        for (int i = 0; i < A.size() - 1; i++) {
-            for (auto i : ratings)
-                cout << i;
-            printf("\n");
-            alter(&A, ratings[i], ratings[i + 1]);
-        }
-        int sum = 0;
-        for (int i = 1; i < ratings.size() - 1; i++) {
-            sum += ratings[i];
-        }
-        return sum;
-    }
-    int alter(vector<int>* ratings, int a, int b) {
-        int left = a + 1, right = b - 1;
-        while (right > left && ratings->at(left) > ratings->at(a) &&
-               ratings->at(right) > ratings->at(b)) {
-            ratings->at(left) = ratings->at(a) + 1;
-            ratings->at(right) = ratings->at(b) + 1;
-            left++;
-            a++;
-            right--;
-            b--;
-        }
-        while (right > left && ratings->at(left) > ratings->at(a)) {
-            ratings->at(left) = ratings->at(a) + 1;
-            left++;
-            a++;
-        }
-        while (right > left && ratings[right] > ratings[b]) {
-            ratings->at(right) = ratings->at(b) + 1;
-            right--;
-            b--;
-        }
-        if (right == left) {
-            ratings->at(right) = ratings->at(b) + 1;
-        }
-        for (auto i : *ratings)
-            cout << i;
-        printf("\n");
+        return accumulate(A.begin(), A.end(), 0);
     }
 };
 
