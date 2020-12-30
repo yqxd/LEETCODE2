@@ -10,9 +10,10 @@
  * right(right) {}
  * };
  */
+
 class Solution {
-   public:
-    bool hasPathSum(TreeNode* root, int sum) {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
         if (root == NULL) {
             return false;
         } else {
