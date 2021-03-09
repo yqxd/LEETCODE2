@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <vector>
 #include <cstdio>
+#include "map"
 
 typedef unsigned char byte;
 using namespace std;
@@ -57,10 +58,38 @@ public:
 int main() {
 //    solution A;
 //    A.printNum();
-    vector<vector<int>> A = {{1}};
-    vector<vector<int>> B = {{2}};
-    B.push_back(A[0]);
-    for (auto i : B) {
-        cout << i[0];
+
+    map<int, int> m;
+
+    for (int i = 0; i < 10; i++) {
+
+        m[i] = i * i;
+
     }
+
+    map<int, int>::iterator iter;
+
+    iter = m.begin();
+
+    while (iter != m.end()) {
+
+        cout << iter->first << "-" << iter->second << endl;
+
+        iter++;
+
+    }
+
+    for (iter = m.begin(); iter != m.end(); iter++) {
+
+        cout << iter->first << "-" << iter->second << endl;
+
+    }
+
+    for (auto &it : m) {
+
+        cout << it.first << "-" << it.second << endl;
+
+    }
+
+    return 0;
 }
