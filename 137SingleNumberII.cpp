@@ -25,9 +25,29 @@
 //
 //Follow up: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
+#include <math.h>
+#include <stdio.h>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
-    int singleNumber(vector<int> &nums) {
-
+    static int singleNumber(vector<int>
+                            &nums) {
+        int ones = 0;
+        int tows = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            ones = (ones ^ nums[i]) & (~tows);
+            tows = (tows ^ nums[i]) & (~ones);
+        }
+        return ones;
     }
 };
+
+int main() {
+    vector<int> A = {1, 3, 3, 3};
+    cout << Solution::singleNumber(A);
+}
