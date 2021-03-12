@@ -5,6 +5,7 @@
 #include <vector>
 #include <cstdio>
 #include "map"
+#include "graphics.h"
 
 typedef unsigned char byte;
 using namespace std;
@@ -37,59 +38,16 @@ struct ListNode {
 
 using namespace std;
 
-class solution {
-public:
-    static void printNum() {
-        for (int num = 1; num <= 100; num += 1) {
-            if (num % 3 == 0) {
-                cout << "Fizz";
-            }
-            if (num % 5 == 0) {
-                cout << "Buzz";
-            }
-            if (num % 3 != 0 and num % 5 != 0) {
-                cout << num;
-            }
-            cout << "\n";
-        }
-    }
-};
+
+#include <graphics.h>
+
 
 int main() {
-//    solution A;
-//    A.printNum();
-
-    map<int, int> m;
-
-    for (int i = 0; i < 10; i++) {
-
-        m[i] = i * i;
-
-    }
-
-    map<int, int>::iterator iter;
-
-    iter = m.begin();
-
-    while (iter != m.end()) {
-
-        cout << iter->first << "-" << iter->second << endl;
-
-        iter++;
-
-    }
-
-    for (iter = m.begin(); iter != m.end(); iter++) {
-
-        cout << iter->first << "-" << iter->second << endl;
-
-    }
-
-    for (auto &it : m) {
-
-        cout << it.first << "-" << it.second << endl;
-
-    }
-
+//    int gdriver, gmode;
+//    gdriver=600;
+//    gmode=800;
+//    initgraph(&gdriver, &gmode, (char*)"");
+//    closegraph();
+    cout << 1;
     return 0;
 }
