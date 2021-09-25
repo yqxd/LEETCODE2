@@ -1,14 +1,16 @@
-#include <math.h>
-#include <stdio.h>
 #include <algorithm>
 #include <iostream>
 #include <vector>
+#include "map"
+
 using namespace std;
 
 struct ListNode {
     int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
+    ListNode *next;
+
+    ListNode(int x) : val(x), next(NULL) {
+    }
 };
 
 // Given a linked list, return the node where the cycle begins. If there is no
@@ -44,16 +46,27 @@ struct ListNode {
 // Can you solve it without using extra space?
 
 class Solution {
-   public:
-    ListNode* detectCycle(ListNode* head) {
-        int num = -101;
-        while (head->val >= -100) {
-            head->val = num;
-            num -= 1;
+public:
+    ListNode *detectCycle(ListNode *head) {
+        map<int, bool> M;
+        while (head != NULL) {
+            if (M.find(head->val) != M.end()) {
+                return head;
+            } else {
+                M[head->val] = true;
+            }
             head = head->next;
         }
-        return -head->val - 100;
+        return NULL;
     }
 };
 
-int main() {}
+int main() {
+    Solution A;
+    ListNode a = {3}, b = {2}, c = {0}, d = {4};
+    a.next = &b;
+    b.next = &c;
+    c.next = &d;
+    d.next = &b;
+    printf("%d", A.detectCycle(&a)->val);
+}
