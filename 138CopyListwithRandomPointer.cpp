@@ -161,5 +161,5 @@ int main() {
     a3->random = a5;
     a4->random = a3;
     a5->random = a1;
-    Node *b1 = Solution::copyRandomList(a1);
+//    Node *b1 = Solution::copyRandomList(a1);
 }
