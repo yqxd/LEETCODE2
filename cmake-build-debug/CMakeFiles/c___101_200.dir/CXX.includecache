@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/my college/leetcode/c++_101-200/143ReorderList.cpp
+algorithm
+-
+iostream
+-
+vector
+-
+map
+E:/my college/leetcode/c++_101-200/map
+
