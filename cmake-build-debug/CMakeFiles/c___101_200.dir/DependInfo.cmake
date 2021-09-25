@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/my college/leetcode/c++_101-200/143ReorderList.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj"
   "E:/my college/leetcode/c++_101-200/144BinaryTreePreorderTraversal.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj"
+  "E:/my college/leetcode/c++_101-200/145BinaryTreePostorderTraversal.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -176,6 +176,30 @@ c___101_200/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.s
 .PHONY : 144BinaryTreePreorderTraversal.cpp.s
 
+145BinaryTreePostorderTraversal.obj: 145BinaryTreePostorderTraversal.cpp.obj
+.PHONY : 145BinaryTreePostorderTraversal.obj
+
+# target to build an object file
+145BinaryTreePostorderTraversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj
+.PHONY : 145BinaryTreePostorderTraversal.cpp.obj
+
+145BinaryTreePostorderTraversal.i: 145BinaryTreePostorderTraversal.cpp.i
+.PHONY : 145BinaryTreePostorderTraversal.i
+
+# target to preprocess a source file
+145BinaryTreePostorderTraversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.i
+.PHONY : 145BinaryTreePostorderTraversal.cpp.i
+
+145BinaryTreePostorderTraversal.s: 145BinaryTreePostorderTraversal.cpp.s
+.PHONY : 145BinaryTreePostorderTraversal.s
+
+# target to generate assembly for a file
+145BinaryTreePostorderTraversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.s
+.PHONY : 145BinaryTreePostorderTraversal.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... 144BinaryTreePreorderTraversal.obj
 	@echo ... 144BinaryTreePreorderTraversal.i
 	@echo ... 144BinaryTreePreorderTraversal.s
+	@echo ... 145BinaryTreePostorderTraversal.obj
+	@echo ... 145BinaryTreePostorderTraversal.i
+	@echo ... 145BinaryTreePostorderTraversal.s
 .PHONY : help
 
 
