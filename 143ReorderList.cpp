@@ -34,7 +34,7 @@ using namespace std;
 class Solution {
 public:
     void reorderList(ListNode *head) {
-        vector < ListNode * > l;
+        vector<ListNode *> l;
         while (head != NULL) {
             l.push_back(head);
             head = head->next;
@@ -48,6 +48,9 @@ public:
         }
         if (end > begin) {
             L[begin]->next = L[end];
+            L[end]->next = NULL;
+        } else {
+            L[begin]->next = NULL;
         }
     }
 };
@@ -64,5 +67,4 @@ int main() {
         printf("%d", p->val);
         p = p->next;
     }
-
 }
