@@ -65,62 +65,47 @@ include CMakeFiles/c___101_200.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c___101_200.dir/flags.make
 
-CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj: ../143ReorderList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\143ReorderList.cpp.obj -c "E:\my college\leetcode\c++_101-200\143ReorderList.cpp"
+CMakeFiles/c___101_200.dir/146LRUCache.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
+CMakeFiles/c___101_200.dir/146LRUCache.cpp.obj: ../146LRUCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/146LRUCache.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\146LRUCache.cpp.obj -c "E:\my college\leetcode\c++_101-200\146LRUCache.cpp"
 
-CMakeFiles/c___101_200.dir/143ReorderList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/143ReorderList.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\143ReorderList.cpp" > CMakeFiles\c___101_200.dir\143ReorderList.cpp.i
+CMakeFiles/c___101_200.dir/146LRUCache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/146LRUCache.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\146LRUCache.cpp" > CMakeFiles\c___101_200.dir\146LRUCache.cpp.i
 
-CMakeFiles/c___101_200.dir/143ReorderList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/143ReorderList.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\143ReorderList.cpp" -o CMakeFiles\c___101_200.dir\143ReorderList.cpp.s
+CMakeFiles/c___101_200.dir/146LRUCache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/146LRUCache.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\146LRUCache.cpp" -o CMakeFiles\c___101_200.dir\146LRUCache.cpp.s
 
-CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj: ../144BinaryTreePreorderTraversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\144BinaryTreePreorderTraversal.cpp.obj -c "E:\my college\leetcode\c++_101-200\144BinaryTreePreorderTraversal.cpp"
+CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
+CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj: ../147InsertionSortList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\147InsertionSortList.cpp.obj -c "E:\my college\leetcode\c++_101-200\147InsertionSortList.cpp"
 
-CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\144BinaryTreePreorderTraversal.cpp" > CMakeFiles\c___101_200.dir\144BinaryTreePreorderTraversal.cpp.i
+CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\147InsertionSortList.cpp" > CMakeFiles\c___101_200.dir\147InsertionSortList.cpp.i
 
-CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\144BinaryTreePreorderTraversal.cpp" -o CMakeFiles\c___101_200.dir\144BinaryTreePreorderTraversal.cpp.s
-
-CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj: ../145BinaryTreePostorderTraversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\145BinaryTreePostorderTraversal.cpp.obj -c "E:\my college\leetcode\c++_101-200\145BinaryTreePostorderTraversal.cpp"
-
-CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\145BinaryTreePostorderTraversal.cpp" > CMakeFiles\c___101_200.dir\145BinaryTreePostorderTraversal.cpp.i
-
-CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\145BinaryTreePostorderTraversal.cpp" -o CMakeFiles\c___101_200.dir\145BinaryTreePostorderTraversal.cpp.s
+CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\147InsertionSortList.cpp" -o CMakeFiles\c___101_200.dir\147InsertionSortList.cpp.s
 
 # Object files for target c___101_200
 c___101_200_OBJECTS = \
-"CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj" \
-"CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj" \
-"CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj"
+"CMakeFiles/c___101_200.dir/146LRUCache.cpp.obj" \
+"CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj"
 
 # External object files for target c___101_200
 c___101_200_EXTERNAL_OBJECTS =
 
-c___101_200.exe: CMakeFiles/c___101_200.dir/143ReorderList.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/144BinaryTreePreorderTraversal.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/145BinaryTreePostorderTraversal.cpp.obj
+c___101_200.exe: CMakeFiles/c___101_200.dir/146LRUCache.cpp.obj
+c___101_200.exe: CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj
 c___101_200.exe: CMakeFiles/c___101_200.dir/build.make
 c___101_200.exe: CMakeFiles/c___101_200.dir/linklibs.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/objects1.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c___101_200.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c___101_200.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c___101_200.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
