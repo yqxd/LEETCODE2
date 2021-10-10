@@ -5,8 +5,11 @@
       <paths name="dukai (4b40a2a8-5c21-48bd-881f-3783e3875ef2)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/tmp.jjx4TFVQaf" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="dukai (b2af24de-88d1-4de1-8afb-65ef3151c0af)">

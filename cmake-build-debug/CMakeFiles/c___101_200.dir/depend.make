@@ -3,3 +3,5 @@
 
 CMakeFiles/c___101_200.dir/147InsertionSortList.cpp.obj: \
  ../147InsertionSortList.cpp
+CMakeFiles/c___101_200.dir/150EvaluateReversePolishNotation.cpp.obj: \
+ ../150EvaluateReversePolishNotation.cpp
