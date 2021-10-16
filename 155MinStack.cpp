@@ -35,34 +35,44 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+#include<queue>
+#include<vector>
+#include "stack"
+
 using namespace std;
 
 class MinStack {
-   public:
-    /** initialize your data structure here. */
-    vector<int> A;
-    vector<int> B;
+public:
+    stack<int> data;
+    stack<int> mindata;
+
     MinStack() {
-        A = {};
-        B = {};
+
     }
 
-    void push(int x) {
-        int i = 0;
-        B.pop_back();
-        for (i = A.size() - 1; i >= 0; i--) {
-            if (A[i] >= x) {
-                A.insert(A.begin() + i + 1, x);
-                break;
-            }
+    void push(int val) {
+        data.push(val);
+        if (mindata.size() == 0 || val <= mindata.top()) {
+            mindata.push(val);
         }
+
     }
 
-    void pop() { A.pop_back(); }
+    void pop() {
+        int val = data.top();
+        data.pop();
+        if (val == mindata.top())
+            mindata.pop();
 
-    int top() { return top[top.size() - 1]; }
+    }
 
-    int getMin() {}
+    int top() {
+        return data.top();
+    }
+
+    int getMin() {
+        return mindata.top();
+    }
 };
 
 /**
