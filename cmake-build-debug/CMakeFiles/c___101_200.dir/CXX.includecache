@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/my college/leetcode/c++_101-200/151ReverseWordsinaString.cpp
+E:/my college/leetcode/c++_101-200/153FindMinimuminRotatedSortedArray.cpp
 iostream
 -
 string
 -
 algorithm
 -
+vector
+E:/my college/leetcode/c++_101-200/vector
 
