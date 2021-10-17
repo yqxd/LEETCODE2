@@ -23,8 +23,8 @@
 //Output: 5
 //Explanation: Your function can return either index number 1 where the peak element is 2, or index number 5 where the peak element is 6.
 
-#include <math.h>
-#include <stdio.h>
+#include <cmath>
+#include <cstdio>
 #include <algorithm>
 #include <iostream>
 #include <vector>
