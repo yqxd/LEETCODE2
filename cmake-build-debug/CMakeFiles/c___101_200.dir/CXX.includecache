@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-E:/my college/leetcode/c++_101-200/153FindMinimuminRotatedSortedArray.cpp
-iostream
+E:/my college/leetcode/c++_101-200/165CompareVersionNumbers.cpp
+cmath
 -
-string
+cstdio
 -
 algorithm
 -
+iostream
+-
 vector
-E:/my college/leetcode/c++_101-200/vector
+-
+queue
+-
+vector
+-
+stack
+E:/my college/leetcode/c++_101-200/stack
+map
+E:/my college/leetcode/c++_101-200/map
 
