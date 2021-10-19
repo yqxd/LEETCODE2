@@ -19,6 +19,7 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 // class Solution {
@@ -41,20 +42,26 @@ using namespace std;
 // };
 
 class Solution {
-   public:
-    vector<int> twoSum(vector<int>& numbers, int target) {
-        int index1 = 1, index2 = numbers.size();
-        while (true) {
+public:
+    vector<int> twoSum(vector<int> &numbers, int target) {
+        int index1 = 0, index2 = numbers.size() - 1;
+        while (index2 > index1) {
             if (numbers[index2] + numbers[index1] > target) {
+                index2--;
+            } else if (numbers[index2] + numbers[index1] < target) {
+                index1++;
+            } else {
+                break;
             }
         }
+        return vector<int>{index1 + 1, index2 + 1};
     }
 };
 
 int main() {
     Solution A;
     vector<int> a = {2, 7, 11, 19};
-    for (auto i : A.twoSum(a, 9))
+    for (auto i: A.twoSum(a, 9))
         cout << i << endl;
     system("Pause");
 }
