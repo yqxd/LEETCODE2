@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/my college/leetcode/c++_101-200/168ExcelSheetColumnTitle.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj"
+  "E:/my college/leetcode/c++_101-200/169MajorityElement.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

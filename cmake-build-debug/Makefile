@@ -152,6 +152,30 @@ c___101_200/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.s
 .PHONY : 168ExcelSheetColumnTitle.cpp.s
 
+169MajorityElement.obj: 169MajorityElement.cpp.obj
+.PHONY : 169MajorityElement.obj
+
+# target to build an object file
+169MajorityElement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj
+.PHONY : 169MajorityElement.cpp.obj
+
+169MajorityElement.i: 169MajorityElement.cpp.i
+.PHONY : 169MajorityElement.i
+
+# target to preprocess a source file
+169MajorityElement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.i
+.PHONY : 169MajorityElement.cpp.i
+
+169MajorityElement.s: 169MajorityElement.cpp.s
+.PHONY : 169MajorityElement.s
+
+# target to generate assembly for a file
+169MajorityElement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.s
+.PHONY : 169MajorityElement.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... 168ExcelSheetColumnTitle.obj
 	@echo ... 168ExcelSheetColumnTitle.i
 	@echo ... 168ExcelSheetColumnTitle.s
+	@echo ... 169MajorityElement.obj
+	@echo ... 169MajorityElement.i
+	@echo ... 169MajorityElement.s
 .PHONY : help
 
 
