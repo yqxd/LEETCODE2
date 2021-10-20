@@ -128,53 +128,29 @@ c___101_200/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/build
 .PHONY : c___101_200/fast
 
-168ExcelSheetColumnTitle.obj: 168ExcelSheetColumnTitle.cpp.obj
-.PHONY : 168ExcelSheetColumnTitle.obj
+171ExcelSheetColumnNumber.obj: 171ExcelSheetColumnNumber.cpp.obj
+.PHONY : 171ExcelSheetColumnNumber.obj
 
 # target to build an object file
-168ExcelSheetColumnTitle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj
-.PHONY : 168ExcelSheetColumnTitle.cpp.obj
+171ExcelSheetColumnNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj
+.PHONY : 171ExcelSheetColumnNumber.cpp.obj
 
-168ExcelSheetColumnTitle.i: 168ExcelSheetColumnTitle.cpp.i
-.PHONY : 168ExcelSheetColumnTitle.i
-
-# target to preprocess a source file
-168ExcelSheetColumnTitle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.i
-.PHONY : 168ExcelSheetColumnTitle.cpp.i
-
-168ExcelSheetColumnTitle.s: 168ExcelSheetColumnTitle.cpp.s
-.PHONY : 168ExcelSheetColumnTitle.s
-
-# target to generate assembly for a file
-168ExcelSheetColumnTitle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.s
-.PHONY : 168ExcelSheetColumnTitle.cpp.s
-
-169MajorityElement.obj: 169MajorityElement.cpp.obj
-.PHONY : 169MajorityElement.obj
-
-# target to build an object file
-169MajorityElement.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj
-.PHONY : 169MajorityElement.cpp.obj
-
-169MajorityElement.i: 169MajorityElement.cpp.i
-.PHONY : 169MajorityElement.i
+171ExcelSheetColumnNumber.i: 171ExcelSheetColumnNumber.cpp.i
+.PHONY : 171ExcelSheetColumnNumber.i
 
 # target to preprocess a source file
-169MajorityElement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.i
-.PHONY : 169MajorityElement.cpp.i
+171ExcelSheetColumnNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.i
+.PHONY : 171ExcelSheetColumnNumber.cpp.i
 
-169MajorityElement.s: 169MajorityElement.cpp.s
-.PHONY : 169MajorityElement.s
+171ExcelSheetColumnNumber.s: 171ExcelSheetColumnNumber.cpp.s
+.PHONY : 171ExcelSheetColumnNumber.s
 
 # target to generate assembly for a file
-169MajorityElement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/169MajorityElement.cpp.s
-.PHONY : 169MajorityElement.cpp.s
+171ExcelSheetColumnNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c___101_200.dir\build.make CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.s
+.PHONY : 171ExcelSheetColumnNumber.cpp.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c___101_200
-	@echo ... 168ExcelSheetColumnTitle.obj
-	@echo ... 168ExcelSheetColumnTitle.i
-	@echo ... 168ExcelSheetColumnTitle.s
-	@echo ... 169MajorityElement.obj
-	@echo ... 169MajorityElement.i
-	@echo ... 169MajorityElement.s
+	@echo ... 171ExcelSheetColumnNumber.obj
+	@echo ... 171ExcelSheetColumnNumber.i
+	@echo ... 171ExcelSheetColumnNumber.s
 .PHONY : help
 
 

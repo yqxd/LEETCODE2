@@ -4,4 +4,4 @@ project(c___101_200)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(c___101_200
-        168ExcelSheetColumnTitle.cpp 169MajorityElement.cpp)
+        171ExcelSheetColumnNumber.cpp)

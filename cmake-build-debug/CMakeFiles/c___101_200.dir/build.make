@@ -65,47 +65,32 @@ include CMakeFiles/c___101_200.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c___101_200.dir/flags.make
 
-CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj: ../168ExcelSheetColumnTitle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\168ExcelSheetColumnTitle.cpp.obj -c "E:\my college\leetcode\c++_101-200\168ExcelSheetColumnTitle.cpp"
+CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
+CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj: ../171ExcelSheetColumnNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\171ExcelSheetColumnNumber.cpp.obj -c "E:\my college\leetcode\c++_101-200\171ExcelSheetColumnNumber.cpp"
 
-CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\168ExcelSheetColumnTitle.cpp" > CMakeFiles\c___101_200.dir\168ExcelSheetColumnTitle.cpp.i
+CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\171ExcelSheetColumnNumber.cpp" > CMakeFiles\c___101_200.dir\171ExcelSheetColumnNumber.cpp.i
 
-CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\168ExcelSheetColumnTitle.cpp" -o CMakeFiles\c___101_200.dir\168ExcelSheetColumnTitle.cpp.s
-
-CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj: ../169MajorityElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\169MajorityElement.cpp.obj -c "E:\my college\leetcode\c++_101-200\169MajorityElement.cpp"
-
-CMakeFiles/c___101_200.dir/169MajorityElement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/169MajorityElement.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\169MajorityElement.cpp" > CMakeFiles\c___101_200.dir\169MajorityElement.cpp.i
-
-CMakeFiles/c___101_200.dir/169MajorityElement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/169MajorityElement.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\169MajorityElement.cpp" -o CMakeFiles\c___101_200.dir\169MajorityElement.cpp.s
+CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\171ExcelSheetColumnNumber.cpp" -o CMakeFiles\c___101_200.dir\171ExcelSheetColumnNumber.cpp.s
 
 # Object files for target c___101_200
 c___101_200_OBJECTS = \
-"CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj" \
-"CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj"
+"CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj"
 
 # External object files for target c___101_200
 c___101_200_EXTERNAL_OBJECTS =
 
-c___101_200.exe: CMakeFiles/c___101_200.dir/168ExcelSheetColumnTitle.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/169MajorityElement.cpp.obj
+c___101_200.exe: CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj
 c___101_200.exe: CMakeFiles/c___101_200.dir/build.make
 c___101_200.exe: CMakeFiles/c___101_200.dir/linklibs.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/objects1.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c___101_200.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c___101_200.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c___101_200.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
