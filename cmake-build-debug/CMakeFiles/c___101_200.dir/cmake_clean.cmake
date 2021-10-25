@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c___101_200.dir/171ExcelSheetColumnNumber.cpp.obj"
-  "CMakeFiles/c___101_200.dir/172FactorialTrailingZeroes.cpp.obj"
+  "CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj"
   "c___101_200.exe"
   "c___101_200.exe.manifest"
   "c___101_200.pdb"
