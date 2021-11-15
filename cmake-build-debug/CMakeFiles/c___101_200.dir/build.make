@@ -65,77 +65,32 @@ include CMakeFiles/c___101_200.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c___101_200.dir/flags.make
 
-CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj: ../173BinarySearchTreeIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\173BinarySearchTreeIterator.cpp.obj -c "E:\my college\leetcode\c++_101-200\173BinarySearchTreeIterator.cpp"
+CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
+CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj: ../199BinaryTreeRightSideView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\199BinaryTreeRightSideView.cpp.obj -c "E:\my college\leetcode\c++_101-200\199BinaryTreeRightSideView.cpp"
 
-CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\173BinarySearchTreeIterator.cpp" > CMakeFiles\c___101_200.dir\173BinarySearchTreeIterator.cpp.i
+CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\199BinaryTreeRightSideView.cpp" > CMakeFiles\c___101_200.dir\199BinaryTreeRightSideView.cpp.i
 
-CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\173BinarySearchTreeIterator.cpp" -o CMakeFiles\c___101_200.dir\173BinarySearchTreeIterator.cpp.s
-
-CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj: ../179LargestNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\179LargestNumber.cpp.obj -c "E:\my college\leetcode\c++_101-200\179LargestNumber.cpp"
-
-CMakeFiles/c___101_200.dir/179LargestNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/179LargestNumber.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\179LargestNumber.cpp" > CMakeFiles\c___101_200.dir\179LargestNumber.cpp.i
-
-CMakeFiles/c___101_200.dir/179LargestNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/179LargestNumber.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\179LargestNumber.cpp" -o CMakeFiles\c___101_200.dir\179LargestNumber.cpp.s
-
-CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj: ../180ConsecutiveNumbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\180ConsecutiveNumbers.cpp.obj -c "E:\my college\leetcode\c++_101-200\180ConsecutiveNumbers.cpp"
-
-CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\180ConsecutiveNumbers.cpp" > CMakeFiles\c___101_200.dir\180ConsecutiveNumbers.cpp.i
-
-CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\180ConsecutiveNumbers.cpp" -o CMakeFiles\c___101_200.dir\180ConsecutiveNumbers.cpp.s
-
-CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj: CMakeFiles/c___101_200.dir/flags.make
-CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj: ../187RepeatedDNASequences.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c___101_200.dir\187RepeatedDNASequences.cpp.obj -c "E:\my college\leetcode\c++_101-200\187RepeatedDNASequences.cpp"
-
-CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\my college\leetcode\c++_101-200\187RepeatedDNASequences.cpp" > CMakeFiles\c___101_200.dir\187RepeatedDNASequences.cpp.i
-
-CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\187RepeatedDNASequences.cpp" -o CMakeFiles\c___101_200.dir\187RepeatedDNASequences.cpp.s
+CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\my college\leetcode\c++_101-200\199BinaryTreeRightSideView.cpp" -o CMakeFiles\c___101_200.dir\199BinaryTreeRightSideView.cpp.s
 
 # Object files for target c___101_200
 c___101_200_OBJECTS = \
-"CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj" \
-"CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj" \
-"CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj" \
-"CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj"
+"CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj"
 
 # External object files for target c___101_200
 c___101_200_EXTERNAL_OBJECTS =
 
-c___101_200.exe: CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj
-c___101_200.exe: CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj
+c___101_200.exe: CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj
 c___101_200.exe: CMakeFiles/c___101_200.dir/build.make
 c___101_200.exe: CMakeFiles/c___101_200.dir/linklibs.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/objects1.rsp
 c___101_200.exe: CMakeFiles/c___101_200.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable c___101_200.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\my college\leetcode\c++_101-200\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c___101_200.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c___101_200.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

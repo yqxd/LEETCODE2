@@ -8,10 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/my college/leetcode/c++_101-200/173BinarySearchTreeIterator.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/173BinarySearchTreeIterator.cpp.obj"
-  "E:/my college/leetcode/c++_101-200/179LargestNumber.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/179LargestNumber.cpp.obj"
-  "E:/my college/leetcode/c++_101-200/180ConsecutiveNumbers.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/180ConsecutiveNumbers.cpp.obj"
-  "E:/my college/leetcode/c++_101-200/187RepeatedDNASequences.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/187RepeatedDNASequences.cpp.obj"
+  "E:/my college/leetcode/c++_101-200/199BinaryTreeRightSideView.cpp" "E:/my college/leetcode/c++_101-200/cmake-build-debug/CMakeFiles/c___101_200.dir/199BinaryTreeRightSideView.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

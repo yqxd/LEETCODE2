@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/my college/leetcode/c++_101-200/173BinarySearchTreeIterator.cpp
-
-E:/my college/leetcode/c++_101-200/179LargestNumber.cpp
+E:/my college/leetcode/c++_101-200/199BinaryTreeRightSideView.cpp
 cmath
 -
 cstdio
@@ -19,14 +17,6 @@ iostream
 -
 vector
 -
-queue
+cstdlib
 -
-vector
--
-stack
-E:/my college/leetcode/c++_101-200/stack
-map
-E:/my college/leetcode/c++_101-200/map
-string
-E:/my college/leetcode/c++_101-200/string
 
